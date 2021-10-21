@@ -2,14 +2,15 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name = 'flask-crafter',
-    version = '0.1.0',
+    name = 'flask-mvc-crafter',
+    version = '0.1.1',
     url = 'https://github.com/rdp-jr/crafter',
     download_url = 'https://github.com/rdp-jr/crafter/archive/refs/tags/0.1.0.tar.gz',
     author = 'Obee Principio',
     author_email = 'rdprincipio.jr@gmail.com',
     description = 'A CLI tool for the FlaskMVC Starter Kit',
-    long_description=open('README.md').read(),
+    long_description=('README.md').read_text(),
+    long_description_content_type='text/markdown',
     py_modules = ['main', 'crafter'],
     packages=find_packages(),
     install_requires = ['Click',

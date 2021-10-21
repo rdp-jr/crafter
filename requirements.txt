@@ -1,0 +1,4 @@
+click==8.0.3
+colorama==0.4.4
+crafter==0.1.0
+inflect==5.3.0

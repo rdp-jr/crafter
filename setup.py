@@ -5,7 +5,7 @@ setup(
     name = 'crafter',
     version = '0.1.0',
     url = 'https://github.com/rdp-jr/crafter',
-    download_url = '',
+    download_url = 'https://github.com/rdp-jr/crafter/archive/refs/tags/0.1.0.tar.gz',
     author = 'Obee Principio',
     author_email = 'rdprincipio.jr@gmail.com',
     description = 'A CLI tool for the FlaskMVC Starter Kit',

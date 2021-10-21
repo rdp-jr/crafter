@@ -15,9 +15,10 @@ setup(
     install_requires = ['Click',
         'inflect'],
     classifiers=[
-        'Programming Language :: Python',
-        'Programming Language :: Python 3',
-        'Programming Language :: Python 3.9',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
     entry_points={
         'console_scripts': [

@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
-
+with open('README.md') as f:
+    long_description = f.read()
 
 setup(
     name = 'flask-mvc-crafter',
@@ -9,7 +10,7 @@ setup(
     author = 'Obee Principio',
     author_email = 'rdprincipio.jr@gmail.com',
     description = 'A CLI tool for the FlaskMVC Starter Kit',
-    long_description=('README.md').read_text(),
+    long_description=long_description,
     long_description_content_type='text/markdown',
     py_modules = ['main', 'crafter'],
     packages=find_packages(),

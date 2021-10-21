@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name = 'crafter',
+    name = 'flask-crafter',
     version = '0.1.0',
     url = 'https://github.com/rdp-jr/crafter',
     download_url = 'https://github.com/rdp-jr/crafter/archive/refs/tags/0.1.0.tar.gz',
